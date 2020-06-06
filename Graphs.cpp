@@ -46,11 +46,9 @@ int main() {
     vector<int> adj[Nv+1];
     cout << "Enter number of edges" << endl;
     cin >> n;
+    cout << "Enter u,v" << endl;
     for (int i = 0; i < n; i++) {
-        cout << "Enter u" << endl;
-        cin >> u;
-        cout << "Enter v" << endl;
-        cin >> v;
+        cin >> u >> v;
         addEdge(adj, u, v);
     }
     cout << "Enter starting vertex" << endl;
