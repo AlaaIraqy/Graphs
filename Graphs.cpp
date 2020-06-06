@@ -43,7 +43,7 @@ int main() {
     int Nv, n, u, v,start,k;
     cout << "Enter number of vertices" << endl;
     cin >> Nv;
-    vector<int> adj[Nv];
+    vector<int> adj[Nv+1];
     cout << "Enter number of edges" << endl;
     cin >> n;
     for (int i = 0; i < n; i++) {
